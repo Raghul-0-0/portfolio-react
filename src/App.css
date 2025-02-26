@@ -48,3 +48,32 @@ body {
   .navbar li:hover {
     color: #ffffff;
   }
+  .hero {
+    padding: 100px 20px;
+    background: #1e1e1e;
+  }
+  .hero h2 {
+    color: #ffffff;
+  }
+  .hero p {
+    color: #bbbbbb;
+  }
+  .about, .projects, .skills, .contact {
+    background: #1a1a1a;
+    padding: 50px;
+  }
+  .about h2, .projects h2, .skills h2, .contact h2 {
+    color: #ffffff;
+  }
+  .projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  .projects li {
+    background: #333;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+  }
